@@ -1,6 +1,5 @@
 body {
   font-family: helvetica,arial;
-  background: rgba(250,250,250,1)
 }
 
 .offpage {
@@ -9,26 +8,26 @@ body {
 }
 
 header {
-  margin: auto;
-  background: rgba(51,102,153,1);
-  background-image: linear-gradient(rgba(51,102,153,1),rgba(153,204,255,1));
-  padding: 0 10px 0 10px;
+  background: rgba(50,180,190,1);
 }
 
 header::after {
   content: '';
   display: table;
-  clear: both
+  clear: both;
 }
 
-.logomark,.logotype {
+.logomark {
+  padding-right: 70%;
   float: left;
-  padding: 20px 800px 0 10px;
+}
 
+header nav {
+  display: block;
 }
 
 header nav ul{
-  float: right;
+  float: left;
 }
 
 header nav li {
@@ -37,31 +36,41 @@ header nav li {
 
 header nav li a {
   display: inline-block;
-  color: rgba(0,0,0,1);
+  color: rgba(255,255,255,1);
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 16px;
-  padding: .5em 1em;
-  border-radius: 20% 20% 0% 0%;
-  background: rgba(51,102,153,.5);
-  border: .5px solid rgba(51,102,153,1);
-  border-bottom: none;
+  font-size: 14px;
+  padding: .25em;
   margin: 0 .25em;
 }
 
 header nav a:hover,a:focus {
-  background:rgba(255,255,255,.5);
+  color: rgba(0,0,0,1);
+  /* background:rgba(51,102,153,.25); */
 }
 
-header nav a.current {
+header .current {
+  border-radius: 20% 20% 0% 0%;
+  color: rgba(0,0,0,1);
   background:rgba(255,255,255,1);
+  padding: .75em 1em .5em 1em;
 }
 
-main{
-  height:550px;
+main img {
+  width: 400px;
+  height: auto;
+}
+
+footer .current {
+  text-decoration: none;
+  color:rgba(250,250,250,1);
+}
+
+/* main{
+  height:1000 px;
   background-image: url(../assets/illustration_hanging_fish.jpg);
   background-color: rgba(255,255,0,1);
-}
+} */
 
 footer{
   text-align: center;
