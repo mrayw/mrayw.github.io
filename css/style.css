@@ -213,6 +213,7 @@ main li {
   padding: 3% 0 3% 10%;
   margin:0;
   background:salmon;
+  cursor:pointer;
 }
 
 .story-scroll li:first-child {
@@ -303,6 +304,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor:pointer;
 }
 
 .right-button { 
