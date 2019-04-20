@@ -7,7 +7,7 @@ $.ajax({
 	success: function(result){
 
 		var activeSrc = result.data[0].images.standard_resolution.url;
-		var activeAlt = result.data[0].caption.text;
+		var activeAlt = result.data[0].caption.text || "No caption provided.";
 		var activeImgTag = "<img src='"+activeSrc+"' alt='"+activeAlt+"'>";
 		$('.instagram')[0].innerHTML = activeImgTag;
 	
