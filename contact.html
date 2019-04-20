@@ -1,33 +1,57 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-  <meta charset="UTF-8">
-  <title >Tracklement's Custom Smoked Provisions</title>
-  <link rel="stylesheet" type="text/css" href="css/html5reset.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="icon" type="image/png" href="favicon.ico"/>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <title >Tracklement's Custom Smoked Provisions</title>
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600i,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
 
-<body>
-<header>
-  <a class="skip" href="#maincontent">Skip navigation</a>
-  <nav class="primary-nav">
-    <a href="index.html"><img class="logomark" src="assets/logo_full_header.png" alt="Tracklement's Logo. Black and white fish illustration."></a>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="products.html">Products</a></li>
-      <li><a href="book.html">Book</a></li>
-      <li><a href="orders.html">Mail Order</a></li>
-      <li><a class="current" href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+  <body>
+  <header id="linktotop">
+    <a class="skip" href="#maincontent">Skip navigation</a>
+    <h1 class= "offpage" >Tracklement's Custom Smoked Provisions</h1>
+    <div class="header-contact">
+      <ul>
+      <li><address> 212 East Kingsley Street, Ann Arbor, MI 48104</address></li>
+      <li><a href="tel:7349306642">734-930-6642</a></li>
+      <li>Wed 10-3, Fri 10-5, Sat 8-3</li>
+      </ul>
+  </div>
+    <a href="index.html"><img class="logomark" src="assets/logo_full_header_white.png" alt="Tracklement's Logo. Black and white fish illustration."></a>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="book.html">Our Book</a></li>
+        <li><a href="orders.html">Mail Order</a></li>
+        <li><a class="current" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
 </header>
 
 <main id="maincontent">
-<h1> Contact </h1>
+
+
+<h2 class="contact-lead">When the fishsocks are out<br>we are open</h2>
+
+<div class="grid-container grid-container-contact">
+
+<img class="grid-item" src="assets/facade2.jpg" alt="Photo of the Tracklements storefront.">
+
+
+<div class="contact-content grid-item">
   <h2>Hours</h2>
-    <p>Wednesday & Friday 10-3</p>
-    <p>Saturay 8-3</p>
+    <p>Wednesday 10am - 3pm</p>
+    <p>Friday 10am - 5pm</p>
+    <p>Saturday 8am - 3pm</p>
   <h2>Address</h2>
     <address> 212 East Kingsley Street, Ann Arbor, MI 48104</address>
   <h2>Smokery Phone</h2>
@@ -36,26 +60,66 @@
     <a href="mailto:orders@tracklements.com">orders@tracklements.com</a>
   <h2>Instagram</h2>
     <a href="https://www.instagram.com/tracklementsa2/">@tracklementsa2</a>
+</div>
 
-  <img src="assets/facade2.jpg" alt="photo of the Tracklements storefront.">
+
+<form class="grid-item" method="post">
+  <!--insert in above form action="https://formspree.io/mrayw@umich.edu" -->
+  <fieldset>
+      <legend>Contact Us</legend>
+      <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="optional">
+      <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="happy@salmoneater.com" required>
+      <label for="phone">Phone Number</label>
+        <input type="tel" name="phone-number" placeholder="+1(123)456-7890">
+    
+      <label for="comments">Comments</label>
+        <textarea type="textarea" name="comments" id="comments" placeholder="What are you interested in?" required></textarea>
+      <input type="submit" value="SEND to Trackelements">
+
+  </fieldset>
+</form>
+
+<div class="map grid-item right-offset">
+<iframe src="https://www.google.com/maps/embed?pb=!4v1555443651636!6m8!1m7!1sCAoSK0FGMVFpcFB6bUFRbHpYWko3R29MUnlHY3U1RU5jQmF6WktkMS1hXzhmbE0.!2m2!1d42.28471955314151!2d-83.74638934165705!3f191.6344931947489!4f22.10539814396617!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+<div class="map map-wide grid-item">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2951.708748110233!2d-83.7484851200353!3d42.284740179293955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cae167c444fbb%3A0x1e75d8ed86571466!2sDurham&#39;s+Tracklements+and+Smokery!5e0!3m2!1sen!2sus!4v1551041569196"></iframe>
+</div>
+
+
+</div>
 
 </main>
 
+<a href="#linktotop" class="back-to-top"><i aria-label="link to main navigation" class="fas fa-arrow-up"></i></a>
+
 <footer>
+  <a href="https://www.instagram.com/tracklementsa2/" target="_blank"><i aria-label="A hyperlink to the Tracklements instagram" class="fab fa-instagram fa-2x"></i></a>
   <nav>
     <ul>
-      <li><a href="index.html">Home</a></li>
+      <li><a class="current" href="index.html">Home</a></li>
       <li><a href="products.html">Products</a></li>
-      <li><a href="book.html">Book</a></li>
-      <li><a href="orders.html">Mail Order</a></li>
-      <li><a class="current" href="contact.html">Contact</a></li>
+      <li><a href="book.html">Our Book</a></li>
+      <li><a href="orders.html">Orders</a></li>
+      <li><a href="contact.html">Contact</a></li>
+
     </ul>
+
   </nav>
 
-  <p>&copy; Tracklement's</p>
-  <address>212 East Kingsley St. Ann Arbor, MI 48104</address>
-  <a href="tel:7349306642"> 734-930-6642 </a>
+  <div class="footer-credits">
+    <p>&copy; Tracklement's</p>
+  <!--   <address>212 East Kingsley St. Ann Arbor, MI 48104</address>
+    <a href="tel:7349306642"> 734-930-6642 </a> -->
+  </div>
 
 </footer>
+<script type="text/javascript" src="script/index.js"></script>
+<script type="text/javascript" src="script/form.js"></script>
+
+
 </body>
 </html>
